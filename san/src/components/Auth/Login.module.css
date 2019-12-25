@@ -1,0 +1,47 @@
+.container3 button  {
+   display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+} 
+.container3 button:hover  { background: linear-gradient(#f5ae00, #f59500) #f5ae00; } /* при наведении курсора мышки */
+.container3 button:active  { background: linear-gradient(#f59500, #f5ae00) #f59500; } /* при нажатии */
+
+.container {
+    position: absolute;
+        top:10%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        background: #8730eb; /* Цвет фона */
+    padding: 10px;
+        border-radius: 12px;
+}
+
+.container2 {
+    position: absolute;
+        top:4%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        background: #f677c5; /* Цвет фона */
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.container3 {
+    position: absolute;
+        top:17%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        
+        
+}
